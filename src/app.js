@@ -1,5 +1,6 @@
 const http = require("http");
 const express = require('express');
+const Spoiler = require("./model/spoiler");
 
 const app = express();
 
@@ -19,4 +20,5 @@ server.listen(port, hostname, () => {
     console.log("\n-------------------------------------------------");
     console.log(`Servidor em execução em http://${hostname}:${port}/`);
     console.log("-------------------------------------------------\n");
+
 });
