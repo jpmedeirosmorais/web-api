@@ -3,10 +3,10 @@ module.exports = {
         database: {
             host: 'localhost',
             port: 3306,
-            name: 'spoiler',
+            name: 'database',
             dialect: 'mysql',
             user: 'root',
-            password: '123456'
+            password: '81143763.Jp'
         }
     },
     production: {
@@ -16,3 +16,4 @@ module.exports = {
         }
     }
 }
+

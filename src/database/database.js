@@ -1,4 +1,4 @@
-const Sequelize = requier("sequelize");
+const Sequelize = require("sequelize");
 
 const enviroment = process.env.NODE_ENV || 'development'
 
@@ -13,3 +13,5 @@ const sequelize = new Sequelize(
         dialect: config.database.dialect
     }
 );
+
+module.exports = sequelize;
